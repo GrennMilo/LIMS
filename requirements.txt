@@ -1,0 +1,63 @@
+# INDUSTRIAL-LIMS requirements.txt
+# Framework principale
+Flask==2.3.3
+Flask-Login==0.6.3
+Flask-Migrate==4.0.5
+Flask-SQLAlchemy==3.1.1
+Flask-WTF==1.2.1
+Flask-RESTful==0.3.10
+Flask-Cors==4.0.0
+
+# Database
+SQLAlchemy==2.0.30
+sqlite-utils==3.36
+
+# Autenticazione e sicurezza
+bcrypt==4.1.2
+python-dotenv==1.0.1
+
+# Upload e gestione file
+Werkzeug==3.0.1
+python-magic==0.4.27
+
+# Analisi dati e grafici
+pandas==2.2.2
+plotly==5.21.0
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# OCR e immagini
+pytesseract==0.3.10
+Pillow==10.3.0
+opencv-python==4.9.0.80
+
+# PDF e esportazione
+reportlab==4.1.0
+pdfkit==1.0.0
+wkhtmltopdf==0.2
+
+# Utility
+requests==2.31.0
+python-dateutil==2.9.0
+
+# Testing e sviluppo
+pytest==8.2.0
+pytest-flask==1.3.0
+coverage==7.4.4
+
+# Linting e qualità
+flake8==7.0.0
+black==24.4.2
+
+# Per backup e compressione
+python-crontab==3.0.0
+zstandard==0.22.0
+
+# Per speech-to-text (stub, opzionale)
+speechrecognition==3.10.0
+
+# Per esportazione CSV avanzata
+csvkit==1.3.0
+
+# Per gestione email/notifiche
+Flask-Mail==0.9.1 
