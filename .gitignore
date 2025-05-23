@@ -1,0 +1,30 @@
+# Escludi file di progetto e sistema
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Escludi ambienti virtuali
+venv/
+.env
+.env.*
+
+# Escludi upload, export, backup, dati temporanei
+INDUSTRIAL-LIMS/modules/*/uploads/
+INDUSTRIAL-LIMS/modules/*/exports/
+INDUSTRIAL-LIMS/backup/
+INDUSTRIAL-LIMS/database/sqlite/
+INDUSTRIAL-LIMS/database/backup/
+INDUSTRIAL-LIMS/database/migrations/
+
+# Escludi file specifici
+Architect.md 
